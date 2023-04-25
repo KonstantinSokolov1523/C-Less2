@@ -9,7 +9,7 @@ Console.Write("Введите трехзначное число ")
 int A = Convert.ToInt32(Console.ReadLine());
 int B = A/100
 
-if(A/100 > 0 & A/100 < 10)
+if(A/100 > 0 && A/100 < 10)
 {
 Console.WriteLine(B%10);
 }
